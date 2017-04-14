@@ -1,0 +1,18 @@
+<div class="row">
+    <div class="col-sm-12">
+        <form>
+            <div class="form-group">
+                <label for="progressInput">Value:</label>
+                <input type="number" class="form-control" id="progressInput" name="progValue" min="0" max="100" ng-model="prgbar.progressValue"
+                />
+            </div>
+        </form>
+    </div>
+</div>
+<div class="row">
+    <div ng-bind="prgbar.startTime" class="col-sm-1"></div>
+    <div class="col-sm-10">
+        <div id="progress-elapsed" ng-bind="prgbar.elapsed" class="progress-elapsed bar"></div><div id="progress-remaining" ng-bind="prgbar.remaining" class="progress-remaning bar"></div>
+    </div>
+    <div ng-bind="prgbar.endTime" class="col-sm-1"></div>
+</div>

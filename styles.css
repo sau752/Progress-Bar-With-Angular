@@ -1,0 +1,13 @@
+div.bar {
+    display: inline-block;
+}
+
+.progress-elapsed {
+    background: #F1C40F;
+    height: 30px;
+}
+
+.progress-remaning {
+    background: #F7DC6F;
+    height: 30px;
+}
