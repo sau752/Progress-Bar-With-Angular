@@ -1,5 +1,7 @@
-var app = angular.module("myApp", []);
+//module
+var app = angular.module("prgBar", []);
 
+//directive
 app.directive('progressBar', function () {
     return {
         restrict: 'E',
